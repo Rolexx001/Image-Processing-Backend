@@ -1,0 +1,9 @@
+node_modules/
+.env
+uploads/**/*
+!uploads/.gitkeep
+!uploads/processed/.gitkeep
+npm-debug.log*
+logs/
+.DS_Store
+.vscode/
