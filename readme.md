@@ -29,14 +29,4 @@ A high-performance, asynchronous image processing engine built with **Node.js** 
 
 ---
 
-## 📂 Project Architecture
 
-```text
-src/
-├── config/             # Redis, MongoDB, and Multer configs
-├── controllers/        # Request handling & Job dispatching
-├── workers/            # BullMQ worker logic (Image processing)
-├── queues/             # BullMQ queue definitions
-├── services/           # Sharp manipulation functions
-├── models/             # Task status schemas
-└── routes/             # API Endpoints
